@@ -14,7 +14,7 @@
 
 ## Результат
 
-Проект доступен по ссылке: project-git-users-search.netlify.app
+Проект доступен по ссылке: https://project-git-users-search.netlify.app
 
 Скриншоты представлены ниже:
 
