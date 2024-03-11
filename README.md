@@ -14,7 +14,7 @@
 
 ## Результат
 
-Проект доступен по ссылке: 
+Проект доступен по ссылке: project-git-users-search.netlify.app
 
 Скриншоты представлены ниже:
 
@@ -31,7 +31,7 @@
 Загрузите этот репозиторий:
 
 ```
-$ git clone 
+$ git clone https://github.com/ShlyapkinAnton/git-users-search.git
 ```
 
 Установите все зависимости из файла `package.json`:
