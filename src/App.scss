@@ -1,0 +1,56 @@
+@use "styles/reset";
+@use "styles/variables";
+
+.layout {
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: variables.$header;
+    background-color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+
+.logo {
+    font-weight: 500;
+}
+
+.content {
+    min-height: calc(100vh - variables.$header - variables.$footer);
+    padding: 20px 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+.footer {
+    height: variables.$footer;
+}
+
+.login {
+    width: fit-content;
+}
+
+.login:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.message-container {
+    text-align: center;
+}
+
+.user-info {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .content {
+        padding: 20px 30px;
+    }
+}
